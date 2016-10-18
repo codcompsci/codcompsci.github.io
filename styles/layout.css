@@ -22,7 +22,7 @@ code{font-weight:normal; font-style:normal; font-family:Georgia, "Times New Roma
 .fl_left{float:left;}
 .fl_right{float:right;}
 
-img{margin:0; padding:0; border:none; line-height:normal; vertical-align:middle;}
+img{margin:-20px 0px 0px 30px; padding:0; border:none; line-height:normal; vertical-align:middle;}
 .imgholder, .imgl, .imgr{padding:4px; border:1px solid #D6D6D6; text-align:center;}
 .imgl{float:left; margin:0 15px 15px 0; clear:left;}
 .imgr{float:right; margin:0 0 15px 15px; clear:right;}
@@ -63,21 +63,22 @@ blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
 .one_third{width:300px;}
 .two_third{width:630px;}
 .three_third{width:960px; float:none; margin-right:0; clear:both;}
-.lastbox{margin-right:0;}
-.members{border: 1px solid #c3c3c3; float:right; width: 630px;}
+.lastbox{padding: 100px;}
+.members{border: 1px solid #c3c3c3; float:right; padding: 100px;}
 .centeredP{text-align: center;}
 
 /*----------------------------------------------Header-------------------------------------*/
 
+
 #header{}
 
-#header #hgroup{padding:20px 0 0 0; float:left;}
-#header #hgroup h1, #header #hgroup h2{font-weight:normal; text-transform:none;}
-#header #hgroup h1{font-size:36px;}
-#header #hgroup h2{font-size:13px;}
+#header #Logo{padding:20px 0 0 0; float:left;}
+#header #Logo h1, #header #Logo h2{font-weight:normal; text-transform:none;}
+#header #Logo h1{font-size:36px;}
+#header #Logo h2{font-size:13px;}
 
-#header nav{display:block; float:right; margin:20px 0 0 0; padding:20px 0;}
-#header nav ul{}
+#header nav{display:block; float:right; margin:32px 40px 0px 200px; padding:20px 0;}
+#header nav ul{margin: }
 #header nav li{display:inline; margin-right:25px; text-transform:uppercase;}
 #header nav li.last{margin-right:0;}
 #header nav li a{padding:5px 8px; color:#FFFFFF; background-color:#051a3d; -webkit-transition-duration: 0.4s;
@@ -88,10 +89,11 @@ blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
 /*----------------------------------------------Content Area-------------------------------------*/
 
 #container{padding:30px 0;}
-#container section{display:block; width:100%; margin:0 0 30px 0; padding:0;}
+#container section{display:block; width:100%; margin:0 0 30px 0; padding:100px;}
+#container footer a:hover{color: orange; font-size: 110%;}
+#container .more{text-align:right; color:white;}
 #container .last{margin:0;}
-#container .more{text-align:right; color:#FFFFFF;}
-#container .more:hover{color: #02132d;}
+
 
 /* ------Shout-----*/
 
@@ -112,3 +114,49 @@ blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
 
 #footer{padding:20px 0; color:#02132d;}
 #footer p{margin:0; padding:0; color:#FFFFFF;}
+
+/*-----------------------------------------------Button------------------------------------*/
+.myButton {
+	-moz-box-shadow: 0px 10px 14px -7px #0b4852;
+	-webkit-box-shadow: 0px 10px 14px -7px #0b4852;
+	box-shadow: 0px 10px 14px -7px #0b4852;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #577c8a), color-stop(1, #021214));
+	background:-moz-linear-gradient(top, #577c8a 5%, #021214 100%);
+	background:-webkit-linear-gradient(top, #577c8a 5%, #021214 100%);
+	background:-o-linear-gradient(top, #577c8a 5%, #021214 100%);
+	background:-ms-linear-gradient(top, #577c8a 5%, #021214 100%);
+	background:linear-gradient(to bottom, #577c8a 5%, #021214 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#577c8a', endColorstr='#021214',GradientType=0);
+	background-color:#577c8a;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:12px 30px;
+	margin: -18px 3px -15px 48px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #387d94;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #021214), color-stop(1, #577c8a));
+	background:-moz-linear-gradient(top, #021214 5%, #577c8a 100%);
+	background:-webkit-linear-gradient(top, #021214 5%, #577c8a 100%);
+	background:-o-linear-gradient(top, #021214 5%, #577c8a 100%);
+	background:-ms-linear-gradient(top, #021214 5%, #577c8a 100%);
+	background:linear-gradient(to bottom, #021214 5%, #577c8a 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#021214', endColorstr='#577c8a',GradientType=0);
+	background-color:#021214;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
