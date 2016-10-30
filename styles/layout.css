@@ -47,11 +47,12 @@ div.wrapper{display:block; width:960px; margin:0 auto; padding:0; text-align:lef
 
 /*----------------------------------------------Generalise-------------------------------------*/
 
-#header, #container, #footer{display:block; width:960px;}
+#header, #container, #footer{display:block; width:960px; font-family: Impact, Charcoal, sans-serif; letter-spacing: 1px;}
 
 nav ul{margin:0; padding:0; list-style:none;}
 
 h1, h2, h3, h4, h5, h6{margin:0; padding:0; font-size:16px; font-weight:bold; font-style:normal; line-height:normal; text-transform:uppercase;}
+h1.big_font{font-size:50px;}
 
 address{font-style:normal;}
 
@@ -77,7 +78,7 @@ blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
 #header #Logo h1{font-size:36px;}
 #header #Logo h2{font-size:13px;}
 
-#header nav{display:block; float:right; margin:-30px 10px -27px 200px; padding:0px 80px 0px 0px;}
+#header nav{display:block; float:right; margin:/*-30px 10px -27px 200px*/80px 40px 0px 0px; padding:0px 80px 0px 0px;}
 #header nav ul{margin: }
 #header nav li{display:inline; margin-right:25px; text-transform:uppercase;}
 #header nav li.last{margin-right:0;}
@@ -90,6 +91,8 @@ blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
 
 #container{padding:30px 0; border-top: 0px; border-style: solid; border-color: #000004;}
 #container section{display:block; width:100%; margin:inherit; padding:50px 10px 50px 10px;}
+#container section p{font-size: 15px; font-family: Arial;}
+/*#container section article h1.about{font-size: 50px;}*/
 #container footer a:hover{color: orange; font-size: 110%;}
 #container .more{text-align:right; color:white; }
 #container .last{margin:inherit;}
@@ -113,7 +116,7 @@ blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
 /*----------------------------------------------Footer-------------------------------------*/
 
 #footer{padding:20px 0; color:#02132d; background-color: #000d21;}
-#footer p{margin:0; padding:0; color:#FFFFFF; background-color: #000d21;}
+#footer p{margin:0; padding:0; color:#FFFFFF; background-color: #000d21; font-family: Arial;}
 
 /*-----------------------------------------------Button------------------------------------*/
 .myButton2 {
@@ -125,7 +128,7 @@ blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
         display:inline-block;
         cursor:pointer;
         color:#ffffff;
-        font-family:Arial;
+        font-family: Impact, Charcoal, sans-serif;
         font-size:15px;
         padding:12px 50px;
         text-decoration:none;
