@@ -6,9 +6,9 @@ Author URI: http://www.os-templates.com/
 Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
 */
 
-html{overflow-y:scroll;} /* Forces a scrollbar when the viewport is larger than the websites content - CSS3 */
+html{overflow-y:scroll; border-style: solid; border-color: #000004;} /* Forces a scrollbar when the viewport is larger than the websites content - CSS3 */
 
-body{margin:25px; padding:0; /*border: 3px solid #000916;*/ font-size:13px; font-family:Georgia, "Times New Roman", Times, serif; color:#979797; background-color:#051a3d;}
+body{margin:25px; padding:0; font-size:13px; font-family:Georgia, "Times New Roman", Times, serif; color:#979797; background-color:#000d21;}
 
 .clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
 .clear{display:block; clear:both;}
@@ -41,9 +41,9 @@ div.wrapper{display:block; width:960px; margin:0 auto; padding:0; text-align:lef
 
 .row1, .row1 a{color:#FFFFFF; background-color:#020a16;}
 .row2{color:#FFFFFF; background-color:#020a16;}
-.row2 a{color:#FFFFFF; background-color:#020a16;}
-.row3{border-top:1px solid #DEDEDE;}
-.row3, .row3 a{color:#FFFFFF; background-color:#051a3d;}
+.row2 a{color:#FFFFFF; background-color:#060210;}
+.row3{}
+.row3, .row3 a{color:#FFFFFF; background-color:#000d21;}
 
 /*----------------------------------------------Generalise-------------------------------------*/
 
@@ -60,17 +60,17 @@ blockquote:before, q:before{content:'“ '; font-size:26px;}
 blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
 
 .one_third, .two_third, .three_third{display:block; float:left; margin:-51px 50px 73px -49px;}
-.one_third{width:800px;}
-.two_third{width:630px; margin: -35px 0px 80px -47px; padding: 0px 0px 15px 0px;}
+.one_third{width: inherit;}
+.two_third{width: inherit; margin: inherit; padding: inherit; background-color: #060210; border-style: solid; border-color: #000004;}
 .three_third{width:960px; float:none; margin-right:0; clear:both;}
-.lastbox{padding: inherit; margin: inherit; align: center;}
+.lastbox{padding: inherit; margin: 40px 0 0 0; background-color: #060210; border-style: solid; border-color: #000004;}
 .members{border: 1px solid #c3c3c3; float:right; padding: 100px;}
 .centeredP{text-align: center;}
 
 /*----------------------------------------------Header-------------------------------------*/
 
 
-#header{}
+#header{border-bottom: 0px; border-style: solid; border-color: #000004;}
 
 #header #Logo{padding:20px 0 0 0; float:left;}
 #header #Logo h1, #header #Logo h2{font-weight:normal; text-transform:none;}
@@ -88,22 +88,22 @@ blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
 
 /*----------------------------------------------Content Area-------------------------------------*/
 
-#container{padding:30px 0;}
-#container section{display:block; width:100%; margin:0 0 30px 0; padding:100px;}
+#container{padding:30px 0; border-top: 0px; border-style: solid; border-color: #000004;}
+#container section{display:block; width:100%; margin:inherit; padding:50px 10px 50px 10px;}
 #container footer a:hover{color: orange; font-size: 110%;}
-#container .more{text-align:right; color:white;}
-#container .last{margin:0px 0px px 0px;}
+#container .more{text-align:right; color:white; }
+#container .last{margin:inherit;}
 
 
 /* ------Shout-----*/
 
-#container #shout{margin-bottom:50px; padding:30px 0; border-top:1px solid #DEDEDE; border-bottom:1px solid #DEDEDE;}
+#container #shout{padding:30px 0; border-right: 0px; border-left: 0px; border-color: white; border-style: solid; background-color: #000004;}
 #container #shout h1{font-size:56px; font-weight:normal; font-style:italic; text-transform:uppercase; text-align:center;}
 #container #shout p{font-size:16px; margin-bottom:0; padding-bottom:0; line-height:1.8em;}
 
 /* ------services-----*/
 
-#container #services{margin-bottom:5px; padding: 60px 0px 0px 125px; line-height:1.6em;}
+#container #services{margin-bottom:5px; padding: 15px 10px 15px 10px; line-height:1.6em;}
 #container #services article{}
 #container #services article h2{font-size:40px; margin-bottom:15px;}
 #container #services article p{margin:0; padding:0;}
@@ -112,49 +112,32 @@ blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
 
 /*----------------------------------------------Footer-------------------------------------*/
 
-#footer{padding:20px 0; color:#02132d;}
-#footer p{margin:0; padding:0; color:#FFFFFF;}
+#footer{padding:20px 0; color:#02132d; background-color: #000d21;}
+#footer p{margin:0; padding:0; color:#FFFFFF; background-color: #000d21;}
 
 /*-----------------------------------------------Button------------------------------------*/
-.myButton {
-	-moz-box-shadow: 0px 10px 14px -7px #0b4852;
-	-webkit-box-shadow: 0px 10px 14px -7px #0b4852;
-	box-shadow: 0px 10px 14px -7px #0b4852;
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #577c8a), color-stop(1, #021214));
-	background:-moz-linear-gradient(top, #577c8a 5%, #021214 100%);
-	background:-webkit-linear-gradient(top, #577c8a 5%, #021214 100%);
-	background:-o-linear-gradient(top, #577c8a 5%, #021214 100%);
-	background:-ms-linear-gradient(top, #577c8a 5%, #021214 100%);
-	background:linear-gradient(to bottom, #577c8a 5%, #021214 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#577c8a', endColorstr='#021214',GradientType=0);
-	background-color:#577c8a;
-	-moz-border-radius:8px;
-	-webkit-border-radius:8px;
-	border-radius:8px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:20px;
-	font-weight:bold;
-	padding:7px 10px;
-	margin: 130px -45px 0px 47px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #387d94;
+.myButton2 {
+        background-color:#000004 !important;
+        -moz-border-radius:28px;
+        -webkit-border-radius:28px;
+        border-radius:28px;
+        border:4px solid #000004;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:15px;
+        padding:12px 50px;
+        text-decoration:none;
 }
-.myButton:hover {
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #021214), color-stop(1, #577c8a));
-	background:-moz-linear-gradient(top, #021214 5%, #577c8a 100%);
-	background:-webkit-linear-gradient(top, #021214 5%, #577c8a 100%);
-	background:-o-linear-gradient(top, #021214 5%, #577c8a 100%);
-	background:-ms-linear-gradient(top, #021214 5%, #577c8a 100%);
-	background:linear-gradient(to bottom, #021214 5%, #577c8a 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#021214', endColorstr='#577c8a',GradientType=0);
-	background-color:#021214;
+.myButton2:hover {
+        background-image: url("https://67.media.tumblr.com/tumblr_lmfix57faG1qhq4cpo1_400.gif");
+        cursor:url(http://www.thisiscolossal.com/wp-content/uploads/2014/03/120430.gif),url(myBall.cur),auto;
 }
-.myButton:active {
-	position:relative;
-	top:1px;
+.myButton2:active {
+        position:relative;
+        top:1px;
+        cursor:pointer;
 }
 
 /*----------------------------------------------------------Title-----------------------------------------------*/
