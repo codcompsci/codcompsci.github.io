@@ -8,21 +8,23 @@
 </head>
 
 
+
 <body>
 <div class="wrapper row1">
   <header id="header" class="clear">
 
     <div id="Logo">
-	  <img src="images/CS_LOGO.png" alt="Computer Science Club" height="100" width="100">  
+	  <img src="images/second_way_better_logo.jpg" alt="Computer Science Club" height="100" width="100">  
     </div>
 	
     <nav>
-      <a href="#" class="myButton">About Us</a>
-	  <a href="#" class="myButton">Contact</a>
-	  <a href="#" class="myButton">Events</a>
+	  <a href="index.html" class="myButton">Home</a>
+      <a href="about.html" class="myButton">About Us</a>
+	  <a href="contact.html" class="myButton">Contact</a>
+	  <a href="events.html" class="myButton">Events</a>
     </nav>
   </header>
-</div
+</div>
 
 
 <!-- content -->
@@ -33,19 +35,115 @@
   
     <!-- content body -->
     <section id="shout">
-      <h1>COD Computer Science Club</h1>
-      <p class="centeredP">For the love of everything Computer Science. Join us as we embark on this journey through the science fiction world of the sciences of computers!</p>
-    </section>
+      <svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+         width="960px" height="120px" viewBox="0 0 700 115">
+	<style type="text/css">
 	
+	<![CDATA[
+
+        text {
+                filter: url(#filter);
+                fill: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 100px;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                }
+]]>
+</style>
+        <defs>
+
+                <filter id="filter">
+                    <feFlood flood-color= #060607 result= #060607 />
+                    <feFlood flood-color="red" result="flood1" />
+        <feFlood flood-color= #060607 result="flood2" />
+                    <feFlood flood-color= result="flood2" />
+                        <feOffset in="SourceGraphic" dx="3" dy="0" result="off1a"/>
+                        <feOffset in="SourceGraphic" dx="2" dy="0" result="off1b"/>
+                        <feOffset in="SourceGraphic" dx="-3" dy="0" result="off2a"/>
+                        <feOffset in="SourceGraphic" dx="-2" dy="0" result="off2b"/>
+                    <feComposite in="flood1" in2="off1a" operator="in"  result="comp1" />
+                    <feComposite in="flood2" in2="off2a" operator="in" result="comp2" />
+
+                        <feMerge x="0" width="100%" result="merge1">
+                                <feMergeNode in = "black" />
+                                <feMergeNode in = "comp1" />
+                                <feMergeNode in = "off1b" />
+
+                                <animate
+                                        attributeName="y"
+                                id = "y"
+                                dur ="4s"
+
+                                values = '104px; 104px; 30px; 105px; 30px; 2px; 2px; 50px; 40px; 105px; 105px; 20px; 6ßpx; 40px; 104px; 40px; 70px; 10px; 30px; 104px; 102px'
+
+                                keyTimes = '0; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1'
+
+                                repeatCount = "indefinite" />
+
+                                <animate attributeName="height"
+                                id = "h"
+                                dur ="4s"
+
+                                values = '10px; 0px; 10px; 30px; 50px; 0px; 10px; 0px; 0px; 0px; 10px; 50px; 40px; 0px; 0px; 0px; 40px; 30px; 10px; 0px; 50px'
+
+                                keyTimes = '0; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1'
+
+                                repeatCount = "indefinite" />
+                    </feMerge>
+
+
+                        <feMerge x="0" width="100%" y="60px" height="65px" result="merge2">
+                                <feMergeNode in = "black" />
+                                <feMergeNode in = "comp2" />
+                                <feMergeNode in = "off2b" />
+
+                                <animate attributeName="y"
+                                id = "y"
+                                dur ="4s"
+                                values = '103px; 104px; 69px; 53px; 42px; 104px; 78px; 89px; 96px; 100px; 67px; 50px; 96px; 66px; 88px; 42px; 13px; 100px; 100px; 104px;'
+
+                                keyTimes = '0; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513; 0.548; 0.577; 0.613; 1'
+
+                                repeatCount = "indefinite" />
+
+                                <animate attributeName="height"
+                                id = "h"
+                                dur = "4s"
+
+                                        values = '0px; 0px; 0px; 16px; 16px; 12px; 12px; 0px; 0px; 5px; 10px; 22px; 33px; 11px; 0px; 0px; 10px'
+
+                                keyTimes = '0; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513;  1'
+
+                                repeatCount = "indefinite" />
+                    </feMerge>
+
+                        <feMerge>
+                                <feMergeNode in="SourceGraphic" />
+
+                                <feMergeNode in="merge1" />
+                        <feMergeNode in="merge2" />
+
+                    </feMerge>
+            </filter>
+
+        </defs>
+
+<g>
+        <text x="0" y="100">COD CS CLUB</text>
+</g>
+</svg>
+    </section>
 	
     <!-- main content -->
     <section id="services" class="clear">
       
       <!-- article 1 -->
       <article class="one_third lastbox" >
-        <h2>Lorum ipsum dolor</h2>
-        <img src="images/demo/80x80.gif" alt="">
-        <p></p>
+        <h2>Welcome to Computer Sciences!</h2>
+        <img src="images/CS_LOGO.png" alt="">
+        <p>Here at the club we love to study everything about the computer sciences!</p>
+		<p>If you want to read more about this topic, read more! There will be more information inside!</p>
         <footer class="more"><a href="#">Read More &raquo;</a></footer>
       </article>
 	 
@@ -60,17 +158,17 @@
     <section class="last clear">
 	
       <article class="two_third">
-        <h2>Lorum ipsum dolor</h2>
-        <p>This is a W3C compliant free website template from <a href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a>. For full terms of use of this template please read our <a href="http://www.os-templates.com/template-terms">website template licence</a>.</p>
-        <p>You can use and modify the template for both personal and commercial use. You must keep all copyright information and credit links in the template and associated files. For more HTML5 templates visit <a href="http://www.os-templates.com/">free website templates</a>.</p>
+        <h2>We are a community of computer scientists!</h2>
+        <p>We are always eager to help out our fellow scientists, so come join us!</p>
+        <p></p>
         <footer class="more"><a href="#">Read More &raquo;</a></footer>
       </article>
 	  
 	  
       <article class="one_third lastbox">
-        <h2>Lorum ipsum dolor</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non diam erat. In fringilla massa ut nisi ullamcorper pellentesque. Quisque non luctus sem.</p>
-        <footer class="more"><a href="#">Read More &raquo;</a></footer>
+        <h2>Don't like the projects we're currently working on?</h2>
+        <p>Submit your own ideas for projects! We would love to hear from you!</p>
+        <footer class="more"><a href="#">Submit Here &raquo;</a></footer>
       </article>
 	  
     </section>

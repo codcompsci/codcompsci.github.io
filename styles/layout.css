@@ -8,7 +8,7 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 
 html{overflow-y:scroll;} /* Forces a scrollbar when the viewport is larger than the websites content - CSS3 */
 
-body{margin:0; padding:0; border: 3px solid #000916; font-size:13px; font-family:Georgia, "Times New Roman", Times, serif; color:#979797; background-color:#051a3d;}
+body{margin:25px; padding:0; /*border: 3px solid #000916;*/ font-size:13px; font-family:Georgia, "Times New Roman", Times, serif; color:#979797; background-color:#051a3d;}
 
 .clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
 .clear{display:block; clear:both;}
@@ -22,7 +22,7 @@ code{font-weight:normal; font-style:normal; font-family:Georgia, "Times New Roma
 .fl_left{float:left;}
 .fl_right{float:right;}
 
-img{margin:-20px 0px 0px 30px; padding:0; border:none; line-height:normal; vertical-align:middle;}
+img{margin:15px 0px 0px 15px; padding:0; border:none; line-height:normal; vertical-align:middle;}
 .imgholder, .imgl, .imgr{padding:4px; border:1px solid #D6D6D6; text-align:center;}
 .imgl{float:left; margin:0 15px 15px 0; clear:left;}
 .imgr{float:right; margin:0 0 15px 15px; clear:right;}
@@ -59,11 +59,11 @@ blockquote, q{display:block; padding:8px 10px; color:#979797; background-color:#
 blockquote:before, q:before{content:'“ '; font-size:26px;}
 blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
 
-.one_third, .two_third, .three_third{display:block; float:left; margin:0 30px 0 0;}
-.one_third{width:300px;}
-.two_third{width:630px;}
+.one_third, .two_third, .three_third{display:block; float:left; margin:-51px 50px 73px -49px;}
+.one_third{width:800px;}
+.two_third{width:630px; margin: -35px 0px 80px -47px; padding: 0px 0px 15px 0px;}
 .three_third{width:960px; float:none; margin-right:0; clear:both;}
-.lastbox{padding: 100px;}
+.lastbox{padding: inherit; margin: inherit; align: center;}
 .members{border: 1px solid #c3c3c3; float:right; padding: 100px;}
 .centeredP{text-align: center;}
 
@@ -77,7 +77,7 @@ blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
 #header #Logo h1{font-size:36px;}
 #header #Logo h2{font-size:13px;}
 
-#header nav{display:block; float:right; margin:32px 40px 0px 200px; padding:20px 0;}
+#header nav{display:block; float:right; margin:-30px 10px -27px 200px; padding:0px 80px 0px 0px;}
 #header nav ul{margin: }
 #header nav li{display:inline; margin-right:25px; text-transform:uppercase;}
 #header nav li.last{margin-right:0;}
@@ -92,7 +92,7 @@ blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
 #container section{display:block; width:100%; margin:0 0 30px 0; padding:100px;}
 #container footer a:hover{color: orange; font-size: 110%;}
 #container .more{text-align:right; color:white;}
-#container .last{margin:0;}
+#container .last{margin:0px 0px px 0px;}
 
 
 /* ------Shout-----*/
@@ -103,11 +103,11 @@ blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
 
 /* ------services-----*/
 
-#container #services{margin-bottom:50px; line-height:1.6em;}
+#container #services{margin-bottom:5px; padding: 60px 0px 0px 125px; line-height:1.6em;}
 #container #services article{}
-#container #services article h2{font-size:14px; margin-bottom:15px;}
+#container #services article h2{font-size:40px; margin-bottom:15px;}
 #container #services article p{margin:0; padding:0;}
-#container #services article img{float:left; width:80px; height:80px; margin:0 10px 10px 0; padding:4px; border:1px solid #DEDEDE;}
+#container #services article img{float:left; width:80px; height:80px; margin:0 10px 10px 0; padding:4px;}
 #container #services article footer{margin:10px 0 0 0;}
 
 /*----------------------------------------------Footer-------------------------------------*/
@@ -137,8 +137,8 @@ blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
 	font-family:Arial;
 	font-size:20px;
 	font-weight:bold;
-	padding:12px 30px;
-	margin: -18px 3px -15px 48px;
+	padding:7px 10px;
+	margin: 130px -45px 0px 47px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #387d94;
 }
@@ -155,6 +155,120 @@ blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
 .myButton:active {
 	position:relative;
 	top:1px;
+}
+
+/*----------------------------------------------------------Title-----------------------------------------------*/
+
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+
+#container #custom {margin-bottom: 0px; padding: 30px 0; border-top:1px;}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+:before,
+:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    min-height: 100%
+}
+
+.wrapper1 {
+    text-align: center;
+}
+
+.title {
+    font-size: 2em;
+    position: relative;
+    margin: 0 auto 1em;
+    padding: 1em 1em .25em 1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.title:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 240px;
+    height: 4px;
+    margin-left: -120px;
+    content: '';
+    background-color: #fff;
+}
+
+/* Clip text element */
+.clip-text {
+    font-size: 6em;
+    font-weight: bold;
+    line-height: 1;
+    position: relative;
+    display: inline-block;
+    margin: .10em;
+    padding: .1em .15em;
+    text-align: center;
+    /* Color fallback */
+    color: #fff;
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+}
+
+.clip-text:before,
+.clip-text:after {
+    position: absolute;
+    content: '';
+}
+
+/* Background */
+.clip-text:before {
+    z-index: -2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: inherit;
+}
+
+/* Text Background (black zone) */
+.clip-text:after {
+    position: absolute;
+    z-index: -1;
+    top: .125em;
+    right: .125em;
+    bottom: .125em;
+    left: .125em;
+    background-color: #000;
+}
+
+/* Change the background position to display letter when the black zone isn't here */
+.clip-text--no-textzone:before {
+    background-position: -.65em 0;
+}
+
+.clip-text--no-textzone:after {
+    content: none;
+}
+
+/* Use Background-size cover for photo background and no-repeat background */
+.clip-text--cover,
+.clip-text--cover:before {
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+            background-size: cover;
+}
+
+/* Background image from http://thepatternlibrary.com/ and http://lorempixel.com */
+.clip-text_four {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNiIgaGVpZ2h0PSI2Ij4KPHJlY3Qgd2lkdGg9IjYiIGhlaWdodD0iNiIgZmlsbD0iI2VlZSI+PC9yZWN0Pgo8ZyBpZD0iYyI+CjxyZWN0IHdpZHRoPSIzIiBoZWlnaHQ9IjMiIGZpbGw9IiNlNmU2ZTYiPjwvcmVjdD4KPHJlY3QgeT0iMSIgd2lkdGg9IjMiIGhlaWdodD0iMiIgZmlsbD0iI2Q4ZDhkOCI+PC9yZWN0Pgo8L2c+Cjx1c2UgeGxpbms6aHJlZj0iI2MiIHg9IjMiIHk9IjMiPjwvdXNlPgo8L3N2Zz4=");
 }
 
 
