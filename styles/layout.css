@@ -6,9 +6,9 @@ Author URI: http://www.os-templates.com/
 Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
 */
 
-html{overflow-y:scroll; border-style: solid; border-color: #000004;} /* Forces a scrollbar when the viewport is larger than the websites content - CSS3 */
+html{overflow-y:scroll; border-style: solid; border-color: #1D1A31;} /* Forces a scrollbar when the viewport is larger than the websites content - CSS3 */
 
-body{margin:25px; padding:0; font-size:13px; font-family:Georgia, "Times New Roman", Times, serif; color:#979797; background-color:#000d21;}
+body{margin:25px; padding:0; font-size:13px; font-family:Georgia, "Times New Roman", Times, serif; color: #00000; background-color:#DFE0E2;}
 
 .clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
 .clear{display:block; clear:both;}
@@ -39,11 +39,11 @@ q:after{content:' „'; font-size:26px; line-height:0;}
 
 div.wrapper{display:block; width:960px; margin:0 auto; padding:0; text-align:left;}
 
-.row1, .row1 a{color:#FFFFFF; background-color:#020a16;}
-.row2{color:#FFFFFF; background-color:#020a16;}
-.row2 a{color:#FFFFFF; background-color:#060210;}
-.row3{}
-.row3, .row3 a{color:#FFFFFF; background-color:#000d21;}
+.row1, .row1 a{color:black; background-color:#A2AEBB;}
+.row2{color:black; background-color:#A2AEBB;}
+.row2 a{color:black; background-color:#75ABBC;}
+.row3 {}
+.row3, .row3 a{color:black; background-color:#DFE0E2;}
 
 /*----------------------------------------------Generalise-------------------------------------*/
 
@@ -62,23 +62,23 @@ blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
 
 .one_third, .two_third, .three_third{display:block; float:left; margin:-51px 50px 73px -49px;}
 .one_third{width: inherit;}
-.two_third{width: inherit; margin: inherit; padding: inherit; background-color: #060210; border-style: solid; border-color: #000004;}
+.two_third{width: inherit; margin: inherit; padding: inherit; background-color: #75ABBC; border-style: solid; border-color: #1D1A31;}
 .three_third{width:960px; float:none; margin-right:0; clear:both;}
-.lastbox{padding: inherit; margin: 40px 0 0 0; background-color: #060210; border-style: solid; border-color: #000004;}
+.lastbox{padding: inherit; margin: 40px 0 0 0; background-color: #75ABBC; border-style: solid; border-color: #1D1A31;}
 .members{border: 1px solid #c3c3c3; float:right; padding: 100px;}
 .centeredP{text-align: center;}
 
 /*----------------------------------------------Header-------------------------------------*/
 
 
-#header{border-bottom: 0px; border-style: solid; border-color: #000004;}
+#header{border-bottom: 0px; border-style: solid; border-color: #1D1A31;}
 
 #header #Logo{padding:20px 0 0 0; float:left;}
 #header #Logo h1, #header #Logo h2{font-weight:normal; text-transform:none;}
 #header #Logo h1{font-size:36px;}
 #header #Logo h2{font-size:13px;}
 
-#header nav{display:block; float:right; margin:/*-30px 10px -27px 200px*/80px 40px 0px 0px; padding:0px 80px 0px 0px;}
+#header nav{display:block; float:right; margin:80px 40px 0px 0px; padding:0px 80px 0px 0px;}
 #header nav ul{margin: }
 #header nav li{display:inline; margin-right:25px; text-transform:uppercase;}
 #header nav li.last{margin-right:0;}
@@ -89,7 +89,7 @@ blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
 
 /*----------------------------------------------Content Area-------------------------------------*/
 
-#container{padding:30px 0; border-top: 0px; border-style: solid; border-color: #000004;}
+#container{padding:30px 0; border-top: 0px; border-style: solid; border-color: #1D1A31;}
 #container section{display:block; width:100%; margin:inherit; padding:50px 10px 50px 10px;}
 #container section p{font-size: 15px; font-family: Arial;}
 /*#container section article h1.about{font-size: 50px;}*/
@@ -100,7 +100,7 @@ blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
 
 /* ------Shout-----*/
 
-#container #shout{padding:30px 0; border-right: 0px; border-left: 0px; border-color: white; border-style: solid; background-color: #000004;}
+#container #shout{padding:30px 0; border-right: 0px; border-left: 0px; border-color: #1D1A31; border-style: solid; background-color: #75ABBC;}
 #container #shout h1{font-size:56px; font-weight:normal; font-style:italic; text-transform:uppercase; text-align:center;}
 #container #shout p{font-size:16px; margin-bottom:0; padding-bottom:0; line-height:1.8em;}
 
@@ -115,16 +115,16 @@ blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
 
 /*----------------------------------------------Footer-------------------------------------*/
 
-#footer{padding:20px 0; color:#02132d; background-color: #000d21;}
-#footer p{margin:0; padding:0; color:#FFFFFF; background-color: #000d21; font-family: Arial;}
+#footer{padding:20px 0; color:black; background-color: #DFE0E2;}
+#footer p{margin:0; padding:0; color:black; background-color: #DFE0E2; font-family: Arial;}
 
 /*-----------------------------------------------Button------------------------------------*/
 .myButton2 {
-        background-color:#000004 !important;
+        background-color:#1D1A31 !important;
         -moz-border-radius:28px;
         -webkit-border-radius:28px;
         border-radius:28px;
-        border:4px solid #000004;
+        border:4px solid #1D1A31;
         display:inline-block;
         cursor:pointer;
         color:#ffffff;
@@ -134,8 +134,9 @@ blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
         text-decoration:none;
 }
 .myButton2:hover {
-        background-image: url("https://67.media.tumblr.com/tumblr_lmfix57faG1qhq4cpo1_400.gif");
+        background-image: url("https://pixelnoizz.files.wordpress.com/2011/05/lines_hacked.gif");
         cursor:url(http://www.thisiscolossal.com/wp-content/uploads/2014/03/120430.gif),url(myBall.cur),auto;
+		color: black;
 }
 .myButton2:active {
         position:relative;
