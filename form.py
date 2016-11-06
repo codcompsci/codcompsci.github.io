@@ -6,7 +6,6 @@ def CheckNameLength(form, field):
     raise ValidationError('Name must have more then 3 characters')
 
 class ContactForm(Form):
-    name = StringField('Your Name:', [validators.DataRequired(), CheckNameLength])
-    email = StringField('Your e-mail address:', [validators.DataRequired(), validators.Email('your@email.com')])
-    message = TextAreaField('Your message:', [validators.DataRequired()])
+    name = StringField([validators.DataRequired(), CheckNameLength])
+    email = StringField([validators.DataRequired(), validators.Email('your@codcompsci.club')])
     submit = SubmitField('Send Message')
