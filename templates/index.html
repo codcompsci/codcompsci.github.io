@@ -3,7 +3,7 @@
 <head>
 <title>COD Computer Science Club</title>
 <meta charset="iso-8859-1">
-<link rel="stylesheet" href="styles/layout.css" type="text/css">
+<link rel="stylesheet" href="../static/styles/layout.css" type="text/css">
 <!--[if lt IE 9]><script src="scripts/html5shiv.js"> </script><![endif]-->
 </head>
 
@@ -139,11 +139,10 @@
       
       <!-- article 1 -->
       <article class="one_third lastbox" align="center" >
-        <h2>Welcome to Computer Sciences!</h2>
+        <h2 align="center">Welcome to Computer Sciences!</h2>
         <img src="images/CS_LOGO.png" alt="">
-        <p>Here at the club we love to study everything about the computer sciences!</p>
-		<p>If you want to read more about this topic, read more! There will be more information inside!</p>
-        <footer class="more"><a href="#">Read More &raquo;</a></footer>
+        <p align="center">Here at the club we love to study everything about the computer sciences!</p>
+		<p align="center">If you want to read more about this topic, read more! There will be more information inside!</p>
       </article>
 	 
     </section>
@@ -157,19 +156,35 @@
     <section class="last clear">
 	
       <article class="two_third">
-        <h1 class="big_font">We are a community of computer scientists!</h1>
+        <h1 align="center" class="big_font">We are a community of computer scientists!</h1>
 		</br>
-        <p>We are always eager to help out our fellow scientists, so come join us!</p>
-        <p></p>
-		<p></p>
-        <footer class="more"><a href="#">Read More &raquo;</a></footer>
+        <p align="center" >We are always eager to help out our fellow scientists, so come join us!</p>
+		  <div class="container-login">
+            <img class="circle" src="images/coding2.svg">
+			
+			<!-- Sign up Form -->
+            <form action="/signup" method="post">
+			  
+              <div class="form-input">
+				<input type="text" name="name" placeholder="Name"> 
+              </div>
+			  
+              <div class="form-input">
+                <input type="text" name="email" placeholder="Email">
+              </div>
+			  
+              <input  class="btn-send-email" type="submit" name="submit" value="Sign-up">
+            </form>
+			
+          </div>
+		  
       </article>
 	  
 	  
       <article class="one_third lastbox">
-        <h1 class="big_font">Don't like the projects we're currently working on?</h1>
+        <h1 align="center" class="big_font">Don't like the projects we're currently working on?</h1>
 		</br>
-        <p>Submit your own ideas for projects! We would love to hear from you!</p>
+        <p align="center">Submit your own ideas for projects! We would love to hear from you!</p>
         <footer class="more"><a href="#">Submit Here &raquo;</a></footer>
       </article>
 	  
@@ -184,7 +199,7 @@
 <!-- footer -->
 <div class="wrapper row3">
   <footer id="footer" class="clear">
-    <p class="fl_left">Copyright &copy; 2012 - All Rights Reserved - <a href="#">Domain Name</a></p>
+    <p class="fl_left">Copyright &copy; 2016 - All Rights Reserved - <a href="#">COD Computer Science Club</a></p>
     <p class="fl_right">Template by <a href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
   </footer>
 </div>

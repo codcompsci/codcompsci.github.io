@@ -6,7 +6,7 @@ Author URI: http://www.os-templates.com/
 Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
 */
 
-html{overflow-y:scroll; border-style: solid; border-color: #1D1A31;} /* Forces a scrollbar when the viewport is larger than the websites content - CSS3 */
+html{overflow-y:scroll; /*border-style: solid; border-color: #1D1A31;*/} /* Forces a scrollbar when the viewport is larger than the websites content - CSS3 */
 
 body{margin:25px; padding:0; font-size:13px; font-family:Georgia, "Times New Roman", Times, serif; color: #00000; background-color:#DFE0E2;}
 
@@ -60,11 +60,11 @@ blockquote, q{display:block; padding:8px 10px; color:#979797; background-color:#
 blockquote:before, q:before{content:'“ '; font-size:26px;}
 blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
 
-.one_third, .two_third, .three_third{display:block; float:left; margin:-51px 50px 73px -49px;}
-.one_third{width: inherit;}
+.one_third, .two_third, .three_third{display:block; float:left; margin:-51px 50px 73px -49px; box-shadow: 5px 10px 10px 0px #888888;}
+.one_third{width: inherit; box-shadow: 5px 10px 10px 0px #888888;}
 .two_third{width: inherit; margin: inherit; padding: inherit; background-color: #75ABBC; border-style: solid; border-color: #1D1A31;}
 .three_third{width:960px; float:none; margin-right:0; clear:both;}
-.lastbox{padding: inherit; margin: 40px 0 0 0; background-color: #75ABBC; border-style: solid; border-color: #1D1A31;}
+.lastbox{padding: inherit; margin: 40px 0 0 0; background-color: #75ABBC; border-style: solid; border-color: #1D1A31; box-shadow: 5px 10px 10px 0px #888888;}
 .members{border: 1px solid #c3c3c3; float:right; padding: 100px;}
 .centeredP{text-align: center;}
 
@@ -78,8 +78,8 @@ blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
 #header #Logo h1{font-size:36px;}
 #header #Logo h2{font-size:13px;}
 
-#header nav{display:block; float:right; margin:80px 40px 0px 0px; padding:0px 80px 0px 0px;}
-#header nav ul{margin: }
+#header nav{display:block; float:right; margin:50px 5px 0px 0px; padding:0px 80px 0px 0px;}
+#header nav ul{}
 #header nav li{display:inline; margin-right:25px; text-transform:uppercase;}
 #header nav li.last{margin-right:0;}
 #header nav li a{padding:5px 8px; color:#FFFFFF; background-color:#051a3d; -webkit-transition-duration: 0.4s;
@@ -92,7 +92,6 @@ blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
 #container{padding:30px 0; border-top: 0px; border-style: solid; border-color: #1D1A31;}
 #container section{display:block; width:100%; margin:inherit; padding:50px 10px 50px 10px;}
 #container section p{font-size: 15px; font-family: Arial;}
-/*#container section article h1.about{font-size: 50px;}*/
 #container footer a:hover{color: orange; font-size: 110%;}
 #container .more{text-align:right; color:white; }
 #container .last{margin:inherit;}
@@ -100,7 +99,9 @@ blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
 
 /* ------Shout-----*/
 
-#container #shout{padding:30px 0; border-right: 0px; border-left: 0px; border-color: #1D1A31; border-style: solid; background-color: #75ABBC;}
+#container #shout{padding:30px 0; border-right: 0px; border-left: 0px; border-color: #1D1A31; border-style: solid; background-color: #75ABBC; -webkit-box-shadow: 2px 26px 25px 0px #888888;
+-moz-box-shadow: 2px 26px 25px 0px #888888;
+box-shadow: 2px 26px 25px 0px #888888;}
 #container #shout h1{font-size:56px; font-weight:normal; font-style:italic; text-transform:uppercase; text-align:center;}
 #container #shout p{font-size:16px; margin-bottom:0; padding-bottom:0; line-height:1.8em;}
 
@@ -258,6 +259,71 @@ body {
     background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNiIgaGVpZ2h0PSI2Ij4KPHJlY3Qgd2lkdGg9IjYiIGhlaWdodD0iNiIgZmlsbD0iI2VlZSI+PC9yZWN0Pgo8ZyBpZD0iYyI+CjxyZWN0IHdpZHRoPSIzIiBoZWlnaHQ9IjMiIGZpbGw9IiNlNmU2ZTYiPjwvcmVjdD4KPHJlY3QgeT0iMSIgd2lkdGg9IjMiIGhlaWdodD0iMiIgZmlsbD0iI2Q4ZDhkOCI+PC9yZWN0Pgo8L2c+Cjx1c2UgeGxpbms6aHJlZj0iI2MiIHg9IjMiIHk9IjMiPjwvdXNlPgo8L3N2Zz4=");
 }
 
+/****************************************************** Form ***********************************************/
+
+.container-login{
+		box-shadow: 5px 10px 10px 0px #393956;
+        width: 800px;
+        height: 300px;
+        text-align: center;
+        margin: 0 auto;
+        background-color: rgba(41, 51, 92, 0.7);
+        margin-top: 100px;
+}
+
+.container-login img{
+        width: 120px;
+        height: 120px;
+        margin-top: -60px;
+        margin-bottom: 30px;
+        margin-left: 0px;
+        border: none;
+}
+.circle { 
+		width:150px;
+		height:150px; 
+		background-color: #eed; 
+		box-shadow: 10px 10px 5px rgba(0,0,0,0.6); 
+		-moz-box-shadow: 10px 10px 5px rgba(0,0,0,0.6); 
+		-webkit-box-shadow: 10px 10px 5px rgba(0,0,0,0.6); 
+		-o-box-shadow: 10px 10px 5px rgba(0,0,0,0.6); 
+		border-radius:100px; }
+
+input{
+        height: 45px;
+        width: 300px;
+        font-size: 18px;
+        margin-bottom: 20px;
+        background-color: #E6EFE9;
+        padding-left: 20px;
+		box-shadow: 0px 10px 10px 0px #2a2a3f;
+		
+}
+
+.form-input::before{
+        content: "";
+        position: absolute;
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+}
+
+.btn-send-email{
+        padding: 10px 20px;
+        font-family: 'Oswald', sans-serif;
+        font-size: 20px;
+        color: #E6EFE9;
+        background-color: #182C47;
+        border: none;
+        cursor: pointer;
+        outline: none;
+}
+
+.btn-send-email:hover {background-color: #223247}
+
+.btn-send-email:active {
+  background-color: #223247;
+  transform: translateY(4px);
+}
 
 
 
