@@ -1,0 +1,330 @@
+/*
+HTML 5 Template Name: Basic 79
+File: Layout CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+html{overflow-y:scroll; /*border-style: solid; border-color: #1D1A31;*/} /* Forces a scrollbar when the viewport is larger than the websites content - CSS3 */
+
+body{margin:25px; padding:0; font-size:13px; font-family:Georgia, "Times New Roman", Times, serif; color: #00000; background-color:#DFE0E2;}
+
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
+.clear{display:block; clear:both;}
+html[xmlns] .clear{display:block;}
+* html .clear{height:1%;}
+
+a{outline:none; text-decoration:none;}
+
+code{font-weight:normal; font-style:normal; font-family:Georgia, "Times New Roman", Times, serif;}
+
+.fl_left{float:left;}
+.fl_right{float:right;}
+
+img{margin:15px 0px 0px 15px; padding:0; border:solid black; line-height:normal; vertical-align:middle;}
+.imgholder, .imgl, .imgr{padding:4px; border:1px solid #D6D6D6; text-align:center;}
+.imgl{float:left; margin:0 15px 15px 0; clear:left;}
+.imgr{float:right; margin:0 0 15px 15px; clear:right;}
+
+/*----------------------------------------------HTML 5 Overrides-------------------------------------*/
+
+address, article, aside, figcaption, figure, footer, header, nav, section{display:block; margin:0; padding:0;}
+
+q{display:block; padding:0 10px 8px 10px; color:#979797; background-color:#ECECEC; font-style:italic; line-height:normal;}
+q:before{content:'“ '; font-size:26px;}
+q:after{content:' „'; font-size:26px; line-height:0;}
+
+/* ----------------------------------------------Wrapper-------------------------------------*/
+
+div.wrapper{display:block; width:960px; margin:0 auto; padding:0; text-align:left;}
+
+.row1, .row1 a{color:white; background-color:#A2AEBB;}
+.row2{color:black; background-color:#A2AEBB;}
+.row2 a{color:black; background-color:#75ABBC;}
+.row3 {}
+.row3, .row3 a{color:black; background-color:#DFE0E2;}
+
+/*----------------------------------------------Generalise-------------------------------------*/
+
+#header, #container, #footer{display:block; width:960px; font-family: Impact, Charcoal, sans-serif; letter-spacing: 1px;}
+
+nav ul{margin:0; padding:0; list-style:none;}
+
+h1, h2, h3, h4, h5, h6{margin:0; padding:0; font-size:16px; font-weight:bold; font-style:normal; line-height:normal; text-transform:uppercase;}
+h1.big_font{font-size:50px;}
+h1.big_fontsp{font-size:50px; border: solid; background-color: rgba(41, 51, 92, 0.7); margin: 0 75px 0 75px; box-shadow: 5px 10px 10px 0px #485d7f;}
+
+address{font-style:normal;}
+
+blockquote, q{display:block; padding:8px 10px; color:#979797; background-color:#ECECEC; font-style:italic; line-height:normal;}
+blockquote:before, q:before{content:'“ '; font-size:26px;}
+blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
+
+.one_third, .two_third, .three_third{display:block; float:left; margin:-51px 50px 73px -49px; box-shadow: 5px 10px 10px 0px #888888;}
+.one_third{width: inherit; box-shadow: 5px 10px 10px 0px #888888;}
+.two_third{width: inherit; margin: inherit; padding: inherit; background-color: #75ABBC; border-style: solid; border-color: #1D1A31;}
+.three_third{width:960px; float:none; margin-right:0; clear:both;}
+.lastbox{padding: inherit; margin: 40px 0 0 0; background-color: #75ABBC; border-style: solid; border-color: #1D1A31; box-shadow: 5px 10px 10px 0px #888888;}
+.members{border: 1px solid #c3c3c3; float:right; padding: 100px;}
+.centeredP{text-align: center;}
+
+/*----------------------------------------------Header-------------------------------------*/
+
+
+#header{border-bottom: 0px; border-style: solid; border-color: #1D1A31;}
+
+#header #Logo{padding:20px 0 0 0; float:left;}
+#header #Logo h1, #header #Logo h2{font-weight:normal; text-transform:none;}
+#header #Logo h1{font-size:36px;}
+#header #Logo h2{font-size:13px;}
+
+#header nav{display:block; float:right; margin:50px 5px 0px 0px; padding:0px 80px 0px 0px;}
+#header nav ul{}
+#header nav li{display:inline; margin-right:25px; text-transform:uppercase;}
+#header nav li.last{margin-right:0;}
+#header nav li a{padding:5px 8px; color:#FFFFFF; background-color:#051a3d; -webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	border-color: #02132d; border: 3px solid #}
+#header nav li a:hover{color:#FF9900; background-color:#FFFFFF;}
+
+/*----------------------------------------------Content Area-------------------------------------*/
+
+#container{padding:30px 0; border-top: 0px; border-style: solid; border-color: #1D1A31;}
+#container section{display:block; width:100%; margin:inherit; padding:50px 10px 50px 10px;}
+#container section p{font-size: 15px; font-family: Arial;}
+#container footer a:hover{color: orange; font-size: 110%;}
+#container .more{text-align:right; color:white; }
+#container .last{margin:inherit;}
+
+
+/* ------Shout-----*/
+
+#container #shout{padding:30px 0; border-right: 0px; border-left: 0px; border-color: #1D1A31; border-style: solid; background-color: #75ABBC; -webkit-box-shadow: 2px 26px 25px 0px #888888;
+-moz-box-shadow: 2px 26px 25px 0px #888888;
+box-shadow: 2px 26px 25px 0px #888888;}
+#container #shout h1{font-size:56px; font-weight:normal; font-style:italic; text-transform:uppercase; text-align:center;}
+#container #shout p{font-size:16px; margin-bottom:0; padding-bottom:0; line-height:1.8em;}
+
+/* ------services-----*/
+
+#container #services{margin-bottom:5px; padding: 15px 10px 15px 10px; line-height:1.6em;}
+#container #services article{}
+#container #services article h2{font-size:40px; margin-bottom:15px;}
+#container #services article p{margin:0; padding:0;}
+#container #services article img{float:left; width:80px; height:80px; margin:0 10px 10px 0; padding:4px;}
+#container #services article footer{margin:10px 0 0 0;}
+
+/*----------------------------------------------Footer-------------------------------------*/
+
+#footer{padding:20px 0; color:black; background-color: #DFE0E2;}
+#footer p{margin:0; padding:0; color:black; background-color: #DFE0E2; font-family: Arial;}
+
+/*-----------------------------------------------Button------------------------------------*/
+.myButton2 {
+        background-color:#1D1A31 !important;
+        -moz-border-radius:28px;
+        -webkit-border-radius:28px;
+        border-radius:28px;
+        border:4px solid black;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family: Impact, Charcoal, sans-serif;
+        font-size:15px;
+        padding:12px 50px;
+        text-decoration:none;
+}
+.myButton2:hover {
+        background-image: url("https://pixelnoizz.files.wordpress.com/2011/05/lines_hacked.gif");
+        cursor:url(http://www.thisiscolossal.com/wp-content/uploads/2014/03/120430.gif),url(myBall.cur),auto;
+		color: black;
+}
+.myButton2:active {
+        position:relative;
+        top:1px;
+        cursor:pointer;
+}
+
+/*----------------------------------------------------------Title-----------------------------------------------*/
+
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+
+#container #custom {margin-bottom: 0px; padding: 30px 0; border-top:1px;}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+:before,
+:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    min-height: 100%
+}
+
+.wrapper1 {
+    text-align: center;
+}
+
+.title {
+    font-size: 2em;
+    position: relative;
+    margin: 0 auto 1em;
+    padding: 1em 1em .25em 1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.title:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 240px;
+    height: 4px;
+    margin-left: -120px;
+    content: '';
+    background-color: #fff;
+}
+
+/* Clip text element */
+.clip-text {
+    font-size: 6em;
+    font-weight: bold;
+    line-height: 1;
+    position: relative;
+    display: inline-block;
+    margin: .10em;
+    padding: .1em .15em;
+    text-align: center;
+    /* Color fallback */
+    color: #fff;
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+}
+
+.clip-text:before,
+.clip-text:after {
+    position: absolute;
+    content: '';
+}
+
+/* Background */
+.clip-text:before {
+    z-index: -2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: inherit;
+}
+
+/* Text Background (black zone) */
+.clip-text:after {
+    position: absolute;
+    z-index: -1;
+    top: .125em;
+    right: .125em;
+    bottom: .125em;
+    left: .125em;
+    background-color: #000;
+}
+
+/* Change the background position to display letter when the black zone isn't here */
+.clip-text--no-textzone:before {
+    background-position: -.65em 0;
+}
+
+.clip-text--no-textzone:after {
+    content: none;
+}
+
+/* Use Background-size cover for photo background and no-repeat background */
+.clip-text--cover,
+.clip-text--cover:before {
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+            background-size: cover;
+}
+
+/* Background image from http://thepatternlibrary.com/ and http://lorempixel.com */
+.clip-text_four {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNiIgaGVpZ2h0PSI2Ij4KPHJlY3Qgd2lkdGg9IjYiIGhlaWdodD0iNiIgZmlsbD0iI2VlZSI+PC9yZWN0Pgo8ZyBpZD0iYyI+CjxyZWN0IHdpZHRoPSIzIiBoZWlnaHQ9IjMiIGZpbGw9IiNlNmU2ZTYiPjwvcmVjdD4KPHJlY3QgeT0iMSIgd2lkdGg9IjMiIGhlaWdodD0iMiIgZmlsbD0iI2Q4ZDhkOCI+PC9yZWN0Pgo8L2c+Cjx1c2UgeGxpbms6aHJlZj0iI2MiIHg9IjMiIHk9IjMiPjwvdXNlPgo8L3N2Zz4=");
+}
+
+/****************************************************** Form ***********************************************/
+
+.container-login{
+		box-shadow: 5px 10px 10px 0px #393956;
+        width: 800px;
+        height: 300px;
+        text-align: center;
+        margin: 0 auto;
+        background-color: rgba(41, 51, 92, 0.7);
+        margin-top: 100px;
+}
+
+.container-login img{
+        width: 120px;
+        height: 120px;
+        margin-top: -60px;
+        margin-bottom: 30px;
+        margin-left: 0px;
+        border: none;
+}
+.circle { 
+		width:150px;
+		height:150px; 
+		background-color: #eed; 
+		box-shadow: 10px 10px 5px rgba(0,0,0,0.6); 
+		-moz-box-shadow: 10px 10px 5px rgba(0,0,0,0.6); 
+		-webkit-box-shadow: 10px 10px 5px rgba(0,0,0,0.6); 
+		-o-box-shadow: 10px 10px 5px rgba(0,0,0,0.6); 
+		border-radius:100px; }
+
+input{
+        height: 45px;
+        width: 300px;
+        font-size: 18px;
+        margin-bottom: 20px;
+        background-color: #E6EFE9;
+        padding-left: 20px;
+		box-shadow: 0px 10px 10px 0px #2a2a3f;
+		
+}
+
+.form-input::before{
+        content: "";
+        position: absolute;
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+}
+
+.btn-send-email{
+        padding: 10px 20px;
+        font-family: 'Oswald', sans-serif;
+        font-size: 20px;
+        color: #E6EFE9;
+        background-color: #182C47;
+        border: none;
+        cursor: pointer;
+        outline: none;
+}
+
+.btn-send-email:hover {background-color: #223247}
+
+.btn-send-email:active {
+  background-color: #223247;
+  transform: translateY(4px);
+}
+
+
+
